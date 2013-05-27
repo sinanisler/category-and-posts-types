@@ -1,4 +1,4 @@
-Category and Post Types
+WordPress Plugin: Category and Post Types
 ========================
 
 This plugin add a widget to the widgets zone.
