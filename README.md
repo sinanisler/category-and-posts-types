@@ -8,4 +8,6 @@ You can confugire the widget for show custom category posts, custom post types p
 Simple and easy to use. Thanks for using
 
 
-https://raw.githubusercontent.com/sinanisler/Category-and-Posts-Types-Widget/master/screenshot.png
+-![alt text](https://raw.githubusercontent.com/sinanisler/Category-and-Posts-Types-Widget/master/screenshot.png "Screenshot")
+
+
