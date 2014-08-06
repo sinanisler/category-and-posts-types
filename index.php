@@ -42,7 +42,7 @@ class CategoryandPostsTypes extends WP_Widget {
             	<h2 class="widgettitle"><?php echo esc_attr($title); ?></h2>
                 <ul class="icerikler-sag-kutu-icerik sondakika">
                     
-					<?php  query_posts( "posts_per_page=$sayi&cat=$category&post_type=$postslug");   if (have_posts()) :  while (have_posts()) : the_post(); ?>
+					<?php  query_posts( "posts_per_page=$sayi&category_name=$category&post_type=$postslug");   if (have_posts()) :  while (have_posts()) : the_post(); ?>
                     	<li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>
 					<?php endwhile; else : endif; wp_reset_query(); ?>
                 	
